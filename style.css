@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "font-1";
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* { 
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: "font-1",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: green ; 
+    min-height: 100vh;
+    cursor : none; 
+   
+
+}
+a { 
+    text-decoration: none;
+    color : white; 
+    background : green; 
+    z-index: 1000; 
+    position:relative;
+
+}
+
+a:visited{ 
+    color:orange; 
+    transition : 0.3s;
+}
+
+
+
+nav { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50px;
+    margin: 10px 20px; 
+    background: white;
+    border-radius : 15px; 
+
+}
+
+nav ul { 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li { 
+    list-style-type: none;
+}
+
+section{ 
+    display: flex;
+}
+
+.main-right{ 
+    width: 50%;
+}
+
+.main-left{ 
+    width: 50%;
+    display: flex;
+  background: white;
+  border-radius: 15px;
+    justify-content: center;
+    flex-direction:column;
+    margin: 80px; 
+   height: 500px;
+   
+    
+}
+
+.title-custom { 
+    font-size: 3rem;
+    margin : 10px 5px; 
+    
+}
+
+.title-custom:hover{ 
+    background : green; 
+    color: white; 
+    border-radius: 50px; 
+}
+
+h2 { 
+    font-size: 2rem; 
+    border-bottom: 2px solid green ; 
+}
+
+#balloon { 
+    width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+h3 {
+    background: white;
+    text-align: center;
+}
+
+.custom-list {
+
+    color: white; 
+    font-size : 2rem;
+    text-align: center;
+
+}
+
+.right-foot {
+    width: 70%;
+}
+
+
+.right-foot ul{ 
+
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.left-foot{ 
+    width: 30%;
+}
+
+.custom-img{ 
+    height: 100px;
+    opacity : 0.6 ; 
+    transform : scale(0.8); 
+}
+
+.custom-img:hover{ 
+    transform : scale(1) ; 
+    opacity : 1 ; 
+    border-radius : 200px; 
+}
+
+#cursor { 
+    height: 14px;
+    width: 14px;
+    background: blue;
+   
+}
+#mouse1{ 
+    height: 100px;
+    width: 100px;
+    background: red;
+    transition: 0.2s ease; 
+}
+
+#mouse2 { 
+    height: 200px;
+    width: 200px;
+    background: yellow; 
+    transition: 0.3s ease; 
+}
+
+.custom-btn { 
+    border-radius : 250px; 
+    position : absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+}
